@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&family=Rubik+Pixels&display=swap');
+
+
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Rubik Pixels", sans-serif;
+  font-weight: 800;
+}
+
+#wrapper {
+  display: flex;
+  height: 75vh;
+  min-height: 500px;
+  margin-top: 50px;
+  justify-content: center;
+  align-items: center;
+}
+
+#calcBody {
+  width: 400px;
+  border: 5px solid #240750;
+  background-color: #FFFAE6;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+.wholeScreen {
+  width: 350px;
+  border: 5px solid black;
+  background: #240750;
+  color: #eae1d6;
+  border-radius: 5px;
+  padding: 10px 20px;
+  text-align: right;
+  word-wrap: break-word;
+  word-break: break-all;
+  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.2);
+
+}
+
+.upperScreen {
+  min-height: 32px;
+  font-size: 25px;
+}
+
+.lowerScreen {
+  min-height: 64px;
+  font-size: 45px;
+}
+
+#buttonSet {
+  width: 350px;
+  margin-top: 20px;
+  display: flex;
+  flex-flow: row wrap;
+  gap: 5px;
+}
+
+.button {
+  flex: 1 1 auto;
+  height: 70px;
+  width: 70px;
+  border-radius: 3px;
+  background-color: #57A6A1;
+  color: #633801;
+  font-size: x-large;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.button:hover {
+  background-color: #FF9F66;
+  box-shadow: 4px 4px 5px rgb(212, 211, 211);
+  font-size: xx-large;
+  transition: 0.3s;
+}
+
+.button:active {
+  background-color: #C3FF93;
+  font-size: x-large;
+  transition: 0.1s;
+}
+
+.equal,
+.AC {
+  flex: 2 1 auto;
+  width: 140px;
+}
